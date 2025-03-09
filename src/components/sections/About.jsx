@@ -45,6 +45,31 @@ export const About = () => {
             </div>
           </div>
         </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <h3 className="text-xl font-bold mb-4"> 🏫 Educación </h3>
+            <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <li>
+                <strong>Técnico Superior en Desarrollo de Software</strong> -
+                Instituto de Estudios Superiores de Santa Fe (2018-2021)
+              </li>
+            </ul>
+          </div>
+          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <h3 className="text-xl font-bold mb-4"> 💼 Experiencia laboral </h3>
+            <div className="space-y-4 to-gray-300">
+              <div>
+                <h4 className="font-semibold">
+                  DevTeam | Desarrollador Web | Práctica (2018){" "}
+                </h4>
+                <p>
+                  Desarrollo y personalización de sitios web en WordPress,
+                  mejorando experiencia de usuario y funcionalidad.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
