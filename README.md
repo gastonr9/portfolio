@@ -1,2 +1,2 @@
-# Personal Portfolio
-This repository contains a beautiful, responsive personal portfolio built using React, Vite, and TailwindCSS. The project showcases modern web development techniques including smooth animations, responsive layouts, and interactive UI components.
+# Portfolio Personal
+Este repositorio contiene un hermoso portafolio personal con capacidad de respuesta creado con React, Vite y TailwindCSS. El proyecto muestra técnicas de desarrollo web modernas, incluidas animaciones fluidas, diseños con capacidad de respuesta y componentes de interfaz de usuario interactivos.
