@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { handleEmail } from "./Mailto";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -8,7 +9,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-xl font-bold text-white">
+          <a href="#inicio" className="font-mono text-xl font-bold text-white">
             {" "}
             Gastón<span className="text-blue-500">.Rodriguez</span>{" "}
           </a>
@@ -20,14 +21,14 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           </div>
           <div className="hidden md:flex items-center space-x-8 ">
             <a
-              href="#about"
+              href="#sobre-mi"
               className="text-gray-300 hove:text-white transition-colors"
             >
               {" "}
               Sobre mí{" "}
             </a>
             <a
-              href="#projects"
+              href="#proyectos"
               className="text-gray-300 hove:text-white transition-colors"
             >
               {" "}
@@ -35,7 +36,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             </a>
 
             <a
-              href="#contact"
+              onClick={handleEmail}
+              href="mailto:gastonhr.contacto@gmail.com"
               className="text-gray-300 hove:text-white transition-colors"
             >
               {" "}
