@@ -2,9 +2,12 @@ export const About = () => {
   const frontendSkills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"];
   const backendSkills = ["Node.js", "Java", "MySQL"];
   return (
-    <section id="sobre-mi" className="flex  justify-center  relative">
-      <div className="max-w-3xl mx-auto px-4">
-        <h2 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+    <section
+      id="sobre-mi"
+      className="flex py-30  max-w-5xl container max-w-5xl md:pt-35 mx-auto pt-35 scroll-m-20 section w-fulljustify-center  relative"
+    >
+      <div className=" mx-auto px-4">
+        <h2 className=" text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent ">
           {""}
           Sobre mí
         </h2>

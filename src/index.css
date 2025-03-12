@@ -8,3 +8,15 @@ body {
   background: #0a0a0a;
   color: #f3f4f6;
 }
+.section {
+  display: block;
+  unicode-bidi: isolate;
+}
+body {
+  position: relative;
+  display: block;
+  line-height: inherit;
+}
+html {
+  scroll-behavior: smooth;
+}

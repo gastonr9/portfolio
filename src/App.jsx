@@ -13,9 +13,11 @@ function App() {
     <>
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Home />
-      <Projects />
-      <About />
+      <main className="px-4">
+        <Home />
+        <Projects />
+        <About />
+      </main>
     </>
   );
 }

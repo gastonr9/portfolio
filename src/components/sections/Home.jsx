@@ -1,21 +1,27 @@
 import { handleEmail } from "../Mailto";
-
 export const Home = () => {
   return (
-    <section id="inicio" className=" flex pt-40 justify-center relative">
-      <div className=" z-10 px-4 mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent ">
+    <section
+      id="inicio"
+      class="container max-w-5xl md:pt-35 mx-auto pt-35 scroll-m-20 section w-full"
+    >
+      <div className=" px-4 max-w-xl ">
+        <h1 className="text-4xl sm:text-5xl font-bold  tracking-tight bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent ">
           Hola, Soy Gaston
         </h1>
-        <p className="text-gray-400  mb-8 max-w-lg mx-auto text-lg">
-          Soy un Desarrollador de Software apasionado por aprender y crear
-          sitios web modernos y atractivos. Desde Santa Fe, Argentina.
+        <p className="  mt-6 max-w-lg tracking-tight text-xl text-gray-400 [&>strong]:text-blue-500 [&>strong]:font-semibold">
+          Soy un <strong>Desarrollador de Software</strong> apasionado por
+          aprender y crear sitios web modernos y atractivos. Desde Santa Fe,
+          Argentina.
         </p>
-        <div className="flex items-center space-x-4">
+        <nav className="flex flex-wrap gap-4 mt-8">
           <a
             onClick={handleEmail}
             href="mailto:gastonhr.contacto@gmail.com"
-            className="rounded-full border border-blue-500 text-white py-2 px-3 font-medium  relative  hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.3)] transition inline-flex items-center justify-center gap-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            role="link"
+            className="border focus-visible:outline-none focus-visible:ring focus-visible:ring-offset-2 hover:bg-blue-500  focus:outline-none gap-2 group inline-flex items-center justify-center max-w-fit px-4 py-1 rounded-full text-md hover:scale-99 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.5)]   border-white/10 hover:border-blue-500/30 text-white  "
           >
             <svg
               class="size-4"
@@ -43,7 +49,7 @@ export const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
             role="link"
-            className="rounded-full border border-blue-500 text-white py-2 px-3 font-medium  relative  hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.3)] transition inline-flex items-center justify-center gap-2"
+            className="border focus-visible:outline-none focus-visible:ring focus-visible:ring-offset-2 hover:bg-blue-500  focus:outline-none gap-2 group inline-flex items-center justify-center max-w-fit px-4 py-1 rounded-full text-md hover:scale-99 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.5)]   border-white/10 hover:border-blue-500/30 text-white "
           >
             <svg
               class="size-4"
@@ -66,7 +72,7 @@ export const Home = () => {
             </svg>
             Linkedin
           </a>
-        </div>
+        </nav>
       </div>
     </section>
   );
