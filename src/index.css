@@ -1,17 +1,17 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
+:root {
+  color-scheme: light dark;
+}
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Space Grotesk", sans-serif;
-  background: #0a0a0a;
-  color: #f3f4f6;
+  font-family: "Onest", sans-serif;
+  color: black;
 }
-.section {
-  display: block;
-  unicode-bidi: isolate;
-}
+
 body {
   position: relative;
   display: block;
@@ -19,4 +19,14 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  line-height: 1.5;
+}
+
+.section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+h2 {
+  @apply bg-gradient-to-r from-blue-500 to-cyan-400;
 }

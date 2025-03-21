@@ -1,15 +1,15 @@
-import { handleEmail } from "../Mailto";
+import { handleEmail } from "../MailTo";
 export const Home = () => {
   return (
     <section
       id="inicio"
-      class="container max-w-5xl md:pt-35 mx-auto pt-35 scroll-m-20 section w-full"
+      className="container max-w-5xl md:pt-35 mx-auto pt-35 scroll-m-20 section w-full "
     >
       <div className=" px-4 max-w-xl ">
-        <h1 className="text-4xl sm:text-5xl font-bold  tracking-tight bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent ">
+        <h1 className="text-4xl sm:text-5xl font-bold  tracking-tight text-gray-800 bg-clip-text  ">
           Hola, Soy Gaston
         </h1>
-        <p className="  mt-6 max-w-lg tracking-tight text-xl text-gray-400 [&>strong]:text-blue-500 [&>strong]:font-semibold">
+        <p className="  mt-6 max-w-lg tracking-tight text-xl text-gray-800 [&>strong]:text-blue-500 [&>strong]:font-semibold">
           Soy un <strong>Desarrollador de Software</strong> apasionado por
           aprender y crear sitios web modernos y atractivos. Desde Santa Fe,
           Argentina.
@@ -24,7 +24,7 @@ export const Home = () => {
             className="border focus-visible:outline-none focus-visible:ring focus-visible:ring-offset-2 hover:bg-blue-500  focus:outline-none gap-2 group inline-flex items-center justify-center max-w-fit px-4 py-1 rounded-full text-md hover:scale-99 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.5)]   border-white/10 hover:border-blue-500/30 text-white  "
           >
             <svg
-              class="size-4"
+              className="size-4"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -52,7 +52,7 @@ export const Home = () => {
             className="border focus-visible:outline-none focus-visible:ring focus-visible:ring-offset-2 hover:bg-blue-500  focus:outline-none gap-2 group inline-flex items-center justify-center max-w-fit px-4 py-1 rounded-full text-md hover:scale-99 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.5)]   border-white/10 hover:border-blue-500/30 text-white "
           >
             <svg
-              class="size-4"
+              className="size-4"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
