@@ -27,9 +27,11 @@ html {
 }
 
 h2 {
-  @apply bg-gradient-to-r from-blue-500 to-cyan-400;
+  @apply text-blue-500;
 }
-
+h3 {
+  @apply text-gray-800 dark:text-gray-100;
+}
 @layer utilities {
   .theme-menu {
     @apply hidden absolute top-10 right-0 bg-white dark:bg-gray-900 shadow-lg p-2 rounded-md border border-gray-200 dark:border-gray-700 transition-opacity duration-300;

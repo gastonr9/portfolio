@@ -2,7 +2,23 @@ export const Projects = () => {
   return (
     <section id="proyectos" className=" items-center justify-center pt-25">
       <div className=" max-w-5xl  mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent ">
+        <h2 className="flex items-center mb-6 text-3xl font-semibold gap-x-1 text-black/80 dark:text-white ">
+          <svg
+            className="size-6"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m8 8l-4 4l4 4m8 0l4-4l-4-4m-2-3l-4 14"
+            />
+          </svg>
           Proyectos
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -65,7 +81,7 @@ export const Projects = () => {
             </div>
           </div>
           <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <h3 className="text-xl font-bold mb-2">Proximo</h3>
+            <h3 className="text-xl font-bold mb-2 ">Proximo</h3>
             <p className=" mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
               harum, voluptatibus sunt dignissimos, quisquam hic at ipsa

@@ -6,11 +6,26 @@ export const About = () => {
       id="sobre-mi"
       data-section="sobre-mi"
       className="flex  max-w-5xl  mx-auto 
-        h-full relative pt-20 pb-60"
+        h-full relative pt-25 pb-60"
     >
       <div className=" mx-auto px-4">
-        <h2 className=" text-3xl font-bold mb-8  bg-clip-text text-transparent ">
-          {""}
+        <h2 className="flex items-center mb-6 text-3xl font-semibold gap-x-1 text-black/80 dark:text-white ">
+          <svg
+            className="size-6"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 9h3m-3 3h3m-3 3h3m-6 1c-.306-.613-.933-1-1.618-1H7.618c-.685 0-1.312.387-1.618 1M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1m7 5a2 2 0 1 1-4 0a2 2 0 0 1 4 0"
+            />
+          </svg>
           Sobre mí
         </h2>
         <div className=" p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition ">
@@ -52,8 +67,25 @@ export const About = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
           <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <h3 className="text-xl font-bold mb-4"> 🏫 Educación </h3>
-            <ul className="list-disc list-inside  space-y-2">
+            <h3 className="flex  mb-6 text-xl font-semibold gap-x-3 text-black/80 dark:text-white ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="27"
+                height="27"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.8"
+                  d="m3.786 9.5l9 4.5l9-4.5l-9-4.5zm0 0V17m3-6v6.222c0 .348 2 1.778 6 1.778s6-1.374 6-1.778V11"
+                />
+              </svg>
+              Educación
+            </h3>
+            <ul className="list-disc list-inside space-y-2 text-gray-800 dark:text-white">
               <li>
                 <strong>Técnico Superior en Desarrollo de Software</strong> -
                 Instituto de Estudios Superiores de Santa Fe (2018-2021)
@@ -61,8 +93,25 @@ export const About = () => {
             </ul>
           </div>
           <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <h3 className="text-xl font-bold mb-4"> 💼 Experiencia laboral </h3>
-            <div className="space-y-4 ">
+            <h3 className="flex  mb-6 text-xl font-semibold gap-x-3 text-black/80 dark:text-white ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 7H5a2 2 0 0 0-2 2v4m5-6h8M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m0 0h3a2 2 0 0 1 2 2v4m0 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6m18 0s-4 2-9 2s-9-2-9-2m9-2h.01"
+                />
+              </svg>
+              Experiencia laboral
+            </h3>
+            <div className="space-y-2 text-gray-800 dark:text-white">
               <div>
                 <h4 className="font-semibold">
                   DevTeam | Desarrollador Web | Práctica (2018){" "}
