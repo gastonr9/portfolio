@@ -1,9 +1,8 @@
 export const Projects = () => {
   return (
-    <section id="proyectos" className=" items-center justify-center pt-30">
+    <section id="proyectos" className=" items-center justify-center pt-25">
       <div className=" max-w-5xl  mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 bg-clip-text text-transparent ">
-          {" "}
           Proyectos
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { handleEmail } from "./MailTo";
+import ThemeToggle from "./ThemeToggle";
 
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,18 +30,24 @@ export const Navbar = () => {
   return (
     <header className="fixed top-0 z-10 flex items-center justify-center w-full mx-auto mt-2 ">
       <nav
-        className={`flex px-3 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center transition-shadow duration-300 ${
+        className={`flex px-3 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center ${
           scrolled ? "shadow-lg backdrop-blur-sm" : ""
         }`}
       >
-        <div className="pr-20">
-          <a
-            href="#inicio"
-            className="   text-black relative block px-2 py-2  "
-          >
+        <a
+          href="#inicio"
+          className="text-black relative block px-2 py-2 md:pr-40 pr-3"
+        >
+          {/* Texto completo en pantallas medianas y grandes */}
+          <span className="hidden md:inline text-gray-600">
             Gastón<span className="text-blue-500">.Rodriguez</span>
-          </a>
-        </div>
+          </span>
+
+          {/* Versión reducida en pantallas pequeñas */}
+          <span className="md:hidden">
+            G<span className="text-blue-500">.R</span>
+          </span>
+        </a>
         <a
           href="#proyectos"
           className={`relative block px-2 py-2 transition ${
@@ -61,7 +68,6 @@ export const Navbar = () => {
         >
           Sobre mí
         </a>
-
         <a
           onClick={handleEmail}
           href="mailto:gastonhr.contacto@gmail.com"
@@ -69,6 +75,7 @@ export const Navbar = () => {
         >
           Contacto
         </a>
+        <ThemeToggle /> {/* Botón de cambio de tema */}
       </nav>
     </header>
   );

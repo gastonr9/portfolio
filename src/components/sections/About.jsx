@@ -5,7 +5,8 @@ export const About = () => {
     <section
       id="sobre-mi"
       data-section="sobre-mi"
-      className="flex py-30  max-w-5xl container  md:pt-35 mx-auto pt-35 scroll-m-20 section w-fulljustify-center  relative"
+      className="flex  max-w-5xl  mx-auto 
+        h-full relative pt-20 pb-60"
     >
       <div className=" mx-auto px-4">
         <h2 className=" text-3xl font-bold mb-8  bg-clip-text text-transparent ">
