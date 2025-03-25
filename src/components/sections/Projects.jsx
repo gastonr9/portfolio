@@ -6,7 +6,7 @@ export const Projects = () => {
           Proyectos
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+          <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <h3 className="text-xl font-bold mb-2">Proximo</h3>
             <p className=" mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -35,7 +35,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+          <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <h3 className="text-xl font-bold mb-2">Proximo</h3>
             <p className=" mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -64,7 +64,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+          <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <h3 className="text-xl font-bold mb-2">Proximo</h3>
             <p className=" mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
@@ -93,7 +93,7 @@ export const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+          <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <h3 className="text-xl font-bold mb-2">Proximo</h3>
             <p className=" mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam

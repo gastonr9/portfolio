@@ -6,10 +6,10 @@ export const Home = () => {
       className="container max-w-5xl  mx-auto pt-35 scroll-m-20 section w-full "
     >
       <div className=" px-4 max-w-xl ">
-        <h1 className="text-4xl sm:text-5xl font-bold  tracking-tight text-gray-800 bg-clip-text  ">
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-800 dark:text-white bg-clip-text">
           Hola, Soy Gaston
         </h1>
-        <p className="  mt-6 max-w-lg tracking-tight text-xl text-gray-800 [&>strong]:text-blue-500 [&>strong]:font-semibold">
+        <p className="mt-6 max-w-lg tracking-tight text-xl text-gray-800 dark:text-gray-300 [&>strong]:text-blue-500 [&>strong]:font-semibold">
           Soy un <strong>Desarrollador de Software</strong> apasionado por
           aprender y crear sitios web modernos y atractivos. Desde Santa Fe,
           Argentina.

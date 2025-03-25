@@ -13,7 +13,7 @@ export const About = () => {
           {""}
           Sobre mí
         </h2>
-        <div className=" rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all ">
+        <div className=" p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition ">
           <p className=" mb-6">
             Me encanta trabajar con tecnologías web para construir interfaces
             limpias, responsivas y fáciles de usar. Actualmente, estoy
@@ -51,7 +51,7 @@ export const About = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <h3 className="text-xl font-bold mb-4"> 🏫 Educación </h3>
             <ul className="list-disc list-inside  space-y-2">
               <li>
@@ -60,7 +60,7 @@ export const About = () => {
               </li>
             </ul>
           </div>
-          <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <h3 className="text-xl font-bold mb-4"> 💼 Experiencia laboral </h3>
             <div className="space-y-4 ">
               <div>
