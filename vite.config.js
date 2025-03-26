@@ -9,5 +9,5 @@ export default defineConfig({
   theme: {
     extend: {},
   },
-  base: "/Gaston-Portfolio",
+  base: "/portfolio",
 });
