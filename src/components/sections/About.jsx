@@ -85,12 +85,14 @@ export const About = () => {
               </svg>
               Educación
             </h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-800 dark:text-white">
-              <li>
-                <strong>Técnico Superior en Desarrollo de Software</strong> -
-                Instituto de Estudios Superiores de Santa Fe (2018-2021)
-              </li>
-            </ul>
+            <div className=" space-y-2 text-gray-800 dark:text-white">
+              <div>
+                <h4 className="font-semibold">
+                  Técnico Superior en Desarrollo de Software
+                </h4>
+                <p>Instituto de Estudios Superiores de Santa Fe (2018-2021)</p>
+              </div>
+            </div>
           </div>
           <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
             <h3 className="flex  mb-6 text-xl font-semibold gap-x-3 text-black/80 dark:text-white ">
@@ -114,7 +116,7 @@ export const About = () => {
             <div className="space-y-2 text-gray-800 dark:text-white">
               <div>
                 <h4 className="font-semibold">
-                  DevTeam | Desarrollador Web | Práctica (2018){" "}
+                  DevTeam | Desarrollador Web | Práctica (2018)
                 </h4>
                 <p>
                   Desarrollo y personalización de sitios web en WordPress,
