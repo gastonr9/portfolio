@@ -2,10 +2,7 @@ import { handleEmail } from "../MailTo";
 import gastonImg from "../../assets/gastonr.webp";
 export const Home = () => {
   return (
-    <section
-      id="inicio"
-      className="container max-w-5xl  mx-auto pt-35 scroll-m-20 section w-full "
-    >
+    <section className="container max-w-5xl  mx-auto pt-35 scroll-m-20 section w-full ">
       <div className=" px-4 max-w-xl ">
         <div className="flex gap-4 mb-4">
           <img
