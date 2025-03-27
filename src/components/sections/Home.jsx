@@ -1,4 +1,5 @@
 import { handleEmail } from "../MailTo";
+import gastonImg from "../../assets/gastonr.webp";
 export const Home = () => {
   return (
     <section
@@ -6,6 +7,28 @@ export const Home = () => {
       className="container max-w-5xl  mx-auto pt-35 scroll-m-20 section w-full "
     >
       <div className=" px-4 max-w-xl ">
+        <div className="flex gap-4 mb-4">
+          <img
+            className="rounded-full shadow-lg size-16"
+            src={gastonImg}
+            alt="Gaston Rodriguez"
+          ></img>
+          <a
+            href="https://linkedin.com/in/gastonhr"
+            target="_blank"
+            rel="noopener"
+            className="flex items-center transition md:justify-center md:hover:scale-105"
+          >
+            <div className="flex items-center ">
+              <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">
+                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#51E4B8_0%,#21554E_50%,#51E4B8_100%)]"></span>
+                <div className="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-green-800 bg-green-100 rounded-full cursor-pointer dark:bg-gray-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
+                  Disponible para trabajar
+                </div>
+              </span>
+            </div>
+          </a>
+        </div>
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-800 dark:text-white bg-clip-text">
           Hola, Soy Gaston
         </h1>

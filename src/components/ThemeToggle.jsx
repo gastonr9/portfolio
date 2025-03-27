@@ -67,8 +67,8 @@ const ThemeToggle = () => {
             <path
               fill="none"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M12 18a6 6 0 1 0 0-12a6 6 0 0 0 0 12m10-6h1M12 2V1m0 22v-1m8-2l-1-1m1-15l-1 1M4 20l1-1M4 4l1 1m-4 7h1"
             />
           </svg>
@@ -84,8 +84,8 @@ const ThemeToggle = () => {
             <path
               fill="none"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M3 11.507a9.493 9.493 0 0 0 18 4.219c-8.507 0-12.726-4.22-12.726-12.726A9.49 9.49 0 0 0 3 11.507"
             />
           </svg>
@@ -98,12 +98,12 @@ const ThemeToggle = () => {
             height="24"
             viewBox="0 0 24 24"
           >
-            <g fill="none" stroke="currentColor" stroke-width="1.5">
+            <g fill="none" stroke="currentColor" strokeWidth="1.5">
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M2 21h15m4 0h1"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <path d="M2 16.4V3.6a.6.6 0 0 1 .6-.6h18.8a.6.6 0 0 1 .6.6v12.8a.6.6 0 0 1-.6.6H2.6a.6.6 0 0 1-.6-.6Z" />
             </g>
