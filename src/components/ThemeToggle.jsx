@@ -48,7 +48,7 @@ const ThemeToggle = () => {
 
   return (
     <div
-      className="relative transition text-gray-600 dark:text-white"
+      className="relative transition text-gray-600 dark:text-white py-2 pr-0.5"
       ref={menuRef}
     >
       {/* Botón para abrir/cerrar el menú */}
