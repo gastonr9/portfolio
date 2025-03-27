@@ -34,7 +34,7 @@ export const Navbar = () => {
           scrolled ? "shadow-lg backdrop-blur-sm" : ""
         }`}
       >
-        <a href="#inicio" className=" relative block px-2 py-2  pr-3">
+        <a href="#inicio" className=" relative block px-2 py-2  ">
           {/* Texto completo en pantallas medianas y grandes */}
           <span className="hidden md:inline text-gray-600 dark:text-white">
             Gastón<span className="text-blue-500">.Rodriguez</span>
