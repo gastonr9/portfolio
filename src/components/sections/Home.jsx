@@ -33,9 +33,8 @@ export const Home = () => {
           Hola, Soy Gaston
         </h1>
         <p className="mt-6 max-w-lg tracking-tight text-xl text-gray-800 dark:text-gray-300 [&>strong]:text-blue-500 [&>strong]:font-semibold">
-          Soy un <strong>Desarrollador de Software</strong> apasionado por
-          aprender y crear sitios web modernos y atractivos. Desde Santa Fe,
-          Argentina.
+          Soy un <strong>Desarrollador de Software</strong> enfocado en crear
+          sitios web modernos y atractivos. Desde Santa Fe, Argentina.
         </p>
         <nav className="flex flex-wrap gap-4 mt-8">
           <a

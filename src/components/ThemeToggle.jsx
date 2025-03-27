@@ -53,7 +53,7 @@ const ThemeToggle = () => {
     >
       {/* Botón para abrir/cerrar el menú */}
       <button
-        className="appearance-none border-none flex hover:scale-90 scale-70 stroke-[2.5] hover:stroke-2"
+        className="appearance-none border-none flex hover:scale-90 scale-70 stroke-[2.5] hover:stroke-2 transition"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         {/* Íconos SVG en línea */}
@@ -63,6 +63,7 @@ const ThemeToggle = () => {
             width="24"
             height="24"
             viewBox="0 0 24 24"
+            className="transition-all"
           >
             <path
               fill="none"
@@ -80,6 +81,7 @@ const ThemeToggle = () => {
             width="24"
             height="24"
             viewBox="0 0 24 24"
+            className="transition-all"
           >
             <path
               fill="none"
@@ -97,6 +99,7 @@ const ThemeToggle = () => {
             width="24"
             height="24"
             viewBox="0 0 24 24"
+            className="transition-all"
           >
             <g fill="none" stroke="currentColor" strokeWidth="1.5">
               <path

@@ -30,11 +30,10 @@ export const About = () => {
         </h2>
         <div className=" p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition ">
           <p className=" mb-6">
-            Me encanta trabajar con tecnologías web para construir interfaces
-            limpias, responsivas y fáciles de usar. Actualmente, estoy
-            desarrollando mis habilidades en HTML, CSS, JavaScript y frameworks
-            como React para mejorar la experiencia de usuario y el rendimiento
-            de las aplicaciones.
+            Trabajo con tecnologías web para diseñar interfaces limpias,
+            responsivas y accesibles. Tengo experiencia en HTML, CSS, JavaScript
+            y frameworks como React, enfocándome en mejorar la experiencia de
+            usuario y el rendimiento de las aplicaciones.
           </p>
           <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className=" rounded-xl p-6 hover:-translate-y-1 transition-all">
