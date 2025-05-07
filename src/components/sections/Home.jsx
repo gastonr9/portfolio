@@ -1,5 +1,6 @@
 import { handleEmail } from "../MailTo";
 import gastonImg from "../../assets/gastonr.webp";
+import resume from "../../../public/CV_Gaston_Rodriguez_dev.pdf";
 export const Home = () => {
   return (
     <section className="container max-w-5xl  mx-auto pt-35 scroll-m-20 section w-full ">
@@ -92,7 +93,7 @@ export const Home = () => {
             Linkedin
           </a>
           <a
-            href="/CV_Gaston_Rodriguez_dev.pdf"
+            href={resume}
             download="CV_Gaston_Rodriguez_dev"
             type="application/pdf"
             target="_blank"
