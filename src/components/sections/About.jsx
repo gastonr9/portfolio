@@ -1,6 +1,14 @@
 export const About = () => {
-  const frontendSkills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"];
+  const frontendSkills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Tailwind CSS",
+  ];
   const backendSkills = ["Node.js", "Java", "MySQL"];
+  const cmsSkills = ["WordPress", "WooCommerce", "Elementor"];
   return (
     <section
       id="sobre-mi"
@@ -35,7 +43,7 @@ export const About = () => {
             y frameworks como React, enfocándome en mejorar la experiencia de
             usuario y el rendimiento de las aplicaciones.
           </p>
-          <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className=" grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className=" rounded-xl p-6 hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">Frontend</h3>
               <div className="flex flex-wrap gap-2">
@@ -53,6 +61,19 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {backendSkills.map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className=" rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <h3 className="text-xl font-bold mb-4">CMS</h3>
+              <div className="flex flex-wrap gap-2">
+                {cmsSkills.map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition"
