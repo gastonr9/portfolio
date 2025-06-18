@@ -49,16 +49,19 @@ export const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="#"
+                href="https://gastonr9.github.io/sublimo-app/"
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
               >
                 Ver Proyecto →
               </a>
-              <img
-                src={sublimo}
-                alt="sbulmio project"
-                className="rounded-xl  w-52 "
-              />
+
+              <a href="https://gastonr9.github.io/sublimo-app/">
+                <img
+                  src={sublimo}
+                  alt="sbulmio project"
+                  className="rounded-xl  w-52 "
+                />
+              </a>
             </div>
           </div>
           <div className="p-6 rounded-xl border border-black/10 hover:-translate-y-1 hover:border-blue-500/30 dark:border-white/10 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
