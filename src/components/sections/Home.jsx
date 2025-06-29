@@ -1,6 +1,6 @@
 import { handleEmail } from "../MailTo";
 import gastonImg from "../../assets/gastonr.webp";
-import resume from "../../../src/assets/CV_Gaston_Rodriguez_dev.pdf";
+import resume from "../../../public/CV_Gaston_Rodriguez_dev.pdf";
 export const Home = () => {
   return (
     <section className="container max-w-5xl  mx-auto pt-35 scroll-m-20 section w-full ">
