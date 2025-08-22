@@ -49,13 +49,13 @@ export const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="https://gastonr9.github.io/sublimo-app/"
+                href="https://sublimo-app.vercel.app/"
                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
               >
                 Ver Proyecto →
               </a>
 
-              <a href="https://gastonr9.github.io/sublimo-app/">
+              <a href="https://sublimo-app.vercel.app/">
                 <img
                   src={sublimo}
                   alt="sbulmio project"
